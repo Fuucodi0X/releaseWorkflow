@@ -1,3 +1,15 @@
+# [8.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v7.0.0...v8.0.0) (2025-03-18)
+
+
+### Features
+
+* app dockerized ([e66e0fa](https://github.com/Fuucodi0X/releaseWorkflow/commit/e66e0faa8f6019f6e151985a29e7ed7cd1e70a56))
+
+
+### BREAKING CHANGES
+
+* needs docker to run the app
+
 # [7.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v6.0.0...v7.0.0) (2025-03-18)
 
 
