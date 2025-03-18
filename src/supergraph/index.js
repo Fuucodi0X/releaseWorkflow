@@ -1,1 +1,1 @@
-const welcome = "Hello!"
+const bye = "Good night!"
