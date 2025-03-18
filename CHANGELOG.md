@@ -1,3 +1,11 @@
+# [3.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.5.0...v3.0.0) (2025-03-18)
+
+
+### Bug Fixes
+
+* update release workflow ([b73d8f4](https://github.com/Fuucodi0X/releaseWorkflow/commit/b73d8f4bb1437e15f69905ee2a8179922e749965))
+* update semantic release config ([45bcb28](https://github.com/Fuucodi0X/releaseWorkflow/commit/45bcb281d47124f96f1d519b3d010cc2c85c226a))
+
 # [2.5.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.4.0...v2.5.0) (2025-03-18)
 
 
