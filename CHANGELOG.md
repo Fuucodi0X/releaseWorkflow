@@ -1,3 +1,33 @@
+# [2.2.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.1.0...v2.2.0) (2025-03-18)
+
+
+### Features
+
+* add graph ([1a1cf94](https://github.com/Fuucodi0X/releaseWorkflow/commit/1a1cf94b4abaccde6e251a86de84e0f374a519ba))
+* test ([beffae5](https://github.com/Fuucodi0X/releaseWorkflow/commit/beffae5ddfe328c317db2c905e44393aecb1f684))
+
+# [2.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.0.0...v2.1.0) (2025-03-18)
+
+
+### Features
+
+* init frontend ([d1d2eef](https://github.com/Fuucodi0X/releaseWorkflow/commit/d1d2eefa854a70cb3dcf3ac9ac49ffa7243492eb))
+
+# [2.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v1.0.0...v2.0.0) (2025-03-18)
+
+
+* Merge pull request [#1](https://github.com/Fuucodi0X/releaseWorkflow/issues/1) from Fuucodi0X/dev ([d26f90f](https://github.com/Fuucodi0X/releaseWorkflow/commit/d26f90f14c3f7e343ca228de29a7290e729a8f23))
+
+
+### Bug Fixes
+
+* give permission access to workflow ([ea062cb](https://github.com/Fuucodi0X/releaseWorkflow/commit/ea062cb9db9a87519547917b24124f81a8f155b2))
+
+
+### BREAKING CHANGES
+
+* removed vue
+
 # 1.0.0 (2025-03-18)
 
 
