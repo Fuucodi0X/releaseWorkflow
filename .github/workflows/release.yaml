@@ -7,6 +7,9 @@ on:
       - 'src/**'       # Source code changes
       - 'VERSION'      # Direct version changes
 
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
