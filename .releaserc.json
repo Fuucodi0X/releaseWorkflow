@@ -5,10 +5,10 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     ["@semantic-release/exec", {
-      "prepareCmd": "echo ${nextRelease.version} > VERSION && sed -i 's/<!--VERSION-->/${nextRelease.version}/g' src/index.html"
+      "prepareCmd": "echo ${nextRelease.version} > VERSION"
     }],
     ["@semantic-release/git", {
-      "assets": ["CHANGELOG.md", "VERSION", "index.html"],
+      "assets": ["CHANGELOG.md", "VERSION"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     "@semantic-release/github"
