@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v5.0.0...v5.1.0) (2025-03-18)
+
+
+### Features
+
+* database integration complete ([cee90e4](https://github.com/Fuucodi0X/releaseWorkflow/commit/cee90e4f892ff3b45008f0ffb52b098b71da004e))
+
 # [5.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v4.0.0...v5.0.0) (2025-03-18)
 
 # [4.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v3.0.0...v4.0.0) (2025-03-18)
