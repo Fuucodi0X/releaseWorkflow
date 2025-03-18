@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.4.0...v2.5.0) (2025-03-18)
+
+
+### Features
+
+* update ([3c06de6](https://github.com/Fuucodi0X/releaseWorkflow/commit/3c06de66966dc8937d658a7b4e9e12d3b4d255d5))
+
 # [2.4.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.3.0...v2.4.0) (2025-03-18)
 
 
