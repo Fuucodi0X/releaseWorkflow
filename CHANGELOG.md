@@ -1,3 +1,13 @@
+# [7.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v6.0.0...v7.0.0) (2025-03-18)
+
+
+* feat!: migrate frontend to react ([1c91324](https://github.com/Fuucodi0X/releaseWorkflow/commit/1c913249e83e01271f0a26b65ffc155e9046155b))
+
+
+### BREAKING CHANGES
+
+* old frontend maintainace stoped
+
 # [6.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v5.1.0...v6.0.0) (2025-03-18)
 
 
