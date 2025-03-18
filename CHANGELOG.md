@@ -1,3 +1,10 @@
+# [6.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v5.1.0...v6.0.0) (2025-03-18)
+
+
+### Features
+
+* jwt added ([f6b26b2](https://github.com/Fuucodi0X/releaseWorkflow/commit/f6b26b2ca44470f3fcd70e816df1aa6e0a3f6648))
+
 # [5.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v5.0.0...v5.1.0) (2025-03-18)
 
 
