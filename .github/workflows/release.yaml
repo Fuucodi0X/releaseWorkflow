@@ -7,8 +7,7 @@ on:
       - 'src/**'       # Source code changes
       - 'VERSION'      # Direct version changes
 
-permissions:
-  contents: write
+permissions: write-all
 
 jobs:
   release:
