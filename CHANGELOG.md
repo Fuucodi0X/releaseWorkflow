@@ -1,3 +1,11 @@
+# [2.2.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.1.0...v2.2.0) (2025-03-18)
+
+
+### Features
+
+* add graph ([1a1cf94](https://github.com/Fuucodi0X/releaseWorkflow/commit/1a1cf94b4abaccde6e251a86de84e0f374a519ba))
+* test ([beffae5](https://github.com/Fuucodi0X/releaseWorkflow/commit/beffae5ddfe328c317db2c905e44393aecb1f684))
+
 # [2.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.0.0...v2.1.0) (2025-03-18)
 
 
