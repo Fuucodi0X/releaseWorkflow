@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.3.0...v2.4.0) (2025-03-18)
+
+
+### Features
+
+* gitflow ([14e7aaa](https://github.com/Fuucodi0X/releaseWorkflow/commit/14e7aaae4b4fb0c69fb091117e66b9af88cf7989))
+
 # [2.3.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.2.0...v2.3.0) (2025-03-18)
 
 
