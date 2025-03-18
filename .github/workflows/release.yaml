@@ -31,7 +31,17 @@ jobs:
 
       # Install semantic-release globally
       - name: Install semantic-release
-        run: npm install -g semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog @semantic-release/exec
+        # run: npm install -g semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog @semantic-release/exec
+        run: |
+            npm install -g \
+              semantic-release \
+              @semantic-release/git \
+              @semantic-release/github \
+              @semantic-release/changelog \
+              @semantic-release/exec \
+              conventional-changelog-conventionalcommits
+
+
 
       - name: Semantic Release
         env:
