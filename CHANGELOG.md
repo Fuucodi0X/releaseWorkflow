@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.0.0...v2.1.0) (2025-03-18)
+
+
+### Features
+
+* init frontend ([d1d2eef](https://github.com/Fuucodi0X/releaseWorkflow/commit/d1d2eefa854a70cb3dcf3ac9ac49ffa7243492eb))
+
 # [2.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v1.0.0...v2.0.0) (2025-03-18)
 
 
