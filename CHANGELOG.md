@@ -1,3 +1,5 @@
+# [4.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v3.0.0...v4.0.0) (2025-03-18)
+
 # [3.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.5.0...v3.0.0) (2025-03-18)
 
 
