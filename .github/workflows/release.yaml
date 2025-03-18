@@ -1,0 +1,37 @@
+name: Semantic Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'       # Source code changes
+      - 'VERSION'      # Direct version changes
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Setup both Go and Node (needed for semantic-release)
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Install semantic-release globally
+      - name: Install semantic-release
+        run: npm install -g semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog @semantic-release/exec
+
+      - name: Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
