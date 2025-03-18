@@ -1,3 +1,12 @@
+# [2.3.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.2.0...v2.3.0) (2025-03-18)
+
+
+### Features
+
+* index.js ([8a549b6](https://github.com/Fuucodi0X/releaseWorkflow/commit/8a549b6ed551677dc8f7f06d0d3abcfe00347d58))
+* version title ([6c324ab](https://github.com/Fuucodi0X/releaseWorkflow/commit/6c324ab6352e3b7175ca9ebf2dae7021ed14f2a4))
+* version.js ([cde0ed5](https://github.com/Fuucodi0X/releaseWorkflow/commit/cde0ed5d71cc332385c70f442fd057ea3cd0f5fb))
+
 # [2.2.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v2.1.0...v2.2.0) (2025-03-18)
 
 
