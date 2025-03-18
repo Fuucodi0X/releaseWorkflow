@@ -1,3 +1,20 @@
+# [9.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v8.0.0...v9.0.0) (2025-03-18)
+
+
+### Bug Fixes
+
+* remove the extra config on commit-analyzer ([5534a6e](https://github.com/Fuucodi0X/releaseWorkflow/commit/5534a6e57615a91ad8d9ee843de9836f0b45d36c))
+
+
+### Features
+
+* automatic service runner ([3ad9fb9](https://github.com/Fuucodi0X/releaseWorkflow/commit/3ad9fb90e222c1ec2695e83a3fe7c8e2d4ea4c4e))
+
+
+### BREAKING CHANGES
+
+* app must be run by the script
+
 # [8.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v7.0.0...v8.0.0) (2025-03-18)
 
 
