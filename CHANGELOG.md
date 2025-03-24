@@ -1,3 +1,10 @@
+## [9.0.1](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.0...v9.0.1) (2025-03-24)
+
+
+### Bug Fixes
+
+* update VERSION location ([5eb7cca](https://github.com/Fuucodi0X/releaseWorkflow/commit/5eb7ccaa94e4c20a750877d5ac1c499a8bd75847))
+
 # [9.0.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v8.0.0...v9.0.0) (2025-03-18)
 
 
