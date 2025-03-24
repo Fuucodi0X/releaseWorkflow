@@ -1,3 +1,72 @@
+# [9.5.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.4.0...v9.5.0) (2025-03-28)
+
+
+### Bug Fixes
+
+* **ai:** include ai image ([9082dc6](https://github.com/Fuucodi0X/releaseWorkflow/commit/9082dc62e3a1a3f02063fd27a33f21721f14b7c4))
+* **ai:** included on start script ([b1bb226](https://github.com/Fuucodi0X/releaseWorkflow/commit/b1bb22669c95538251003ad7fe224c4d6574e6c1))
+
+
+### Features
+
+* **ai:** init ([f1fcb3d](https://github.com/Fuucodi0X/releaseWorkflow/commit/f1fcb3d149689e00e76fa3f47e782f1708ffab3b))
+* commit check ([abb5515](https://github.com/Fuucodi0X/releaseWorkflow/commit/abb5515088c41e1897d0b2feb519eb3d16513093))
+* **test-script:** init ([7bcdf83](https://github.com/Fuucodi0X/releaseWorkflow/commit/7bcdf83d5f97cd4509563189cc81965c6e65c41a))
+
+# [9.4.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.3.0...v9.4.0) (2025-03-27)
+
+
+### Features
+
+* **ai:** init ([621b54a](https://github.com/Fuucodi0X/releaseWorkflow/commit/621b54a26371bad87090bb46993dcd160e4bb6e4))
+
+# [9.3.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.2.0...v9.3.0) (2025-03-27)
+
+
+### Bug Fixes
+
+* **hasura:** update database connection ([56e27eb](https://github.com/Fuucodi0X/releaseWorkflow/commit/56e27eb1aed9c9dfe01c75d8b2cae477b7a887c4))
+
+
+### Features
+
+* **backend:** init ([8273ce4](https://github.com/Fuucodi0X/releaseWorkflow/commit/8273ce43866e855e5db4ec63fc0f7b5398440dbf))
+* **vite:** init ([39b7a06](https://github.com/Fuucodi0X/releaseWorkflow/commit/39b7a066d0112fb46ac7ec322006c790b8a771ba))
+
+# [9.2.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.1.0...v9.2.0) (2025-03-24)
+
+
+### Bug Fixes
+
+* removed ([2808ea5](https://github.com/Fuucodi0X/releaseWorkflow/commit/2808ea55b1ba3a28ee08cae8dccfdd8f804db201))
+
+
+### Features
+
+* update workflow ([76baa32](https://github.com/Fuucodi0X/releaseWorkflow/commit/76baa3225037cceccdbb8c5c25a41c7ed02844f8))
+
+# [9.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.3...v9.1.0) (2025-03-24)
+
+
+### Bug Fixes
+
+* commit 1 ([da8ab55](https://github.com/Fuucodi0X/releaseWorkflow/commit/da8ab55691437f2e9a6ca220c738a1c73dd5ebbf))
+* commit 2 ([c9b0345](https://github.com/Fuucodi0X/releaseWorkflow/commit/c9b0345bb78c2c5ffe3845d14d8b107d3d9b444d))
+* commit 3 ([ba76392](https://github.com/Fuucodi0X/releaseWorkflow/commit/ba7639219da6b757f5002393354379e3ad2dd4cb))
+* test ([cf8a027](https://github.com/Fuucodi0X/releaseWorkflow/commit/cf8a02738e09c104adb4aa182cfacc1e2c792aa4))
+
+
+### Features
+
+* commit 4 ([77f9a26](https://github.com/Fuucodi0X/releaseWorkflow/commit/77f9a26f253560252b866941a8eef6eed40ea419))
+
+## [9.0.3](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.2...v9.0.3) (2025-03-24)
+
+
+### Bug Fixes
+
+* test merge ([7866032](https://github.com/Fuucodi0X/releaseWorkflow/commit/7866032eb0c2cba09495ef73f7569615b62d3d6d))
+
 ## [9.0.2](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.1...v9.0.2) (2025-03-24)
 
 

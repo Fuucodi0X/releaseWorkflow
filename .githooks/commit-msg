@@ -1,0 +1,38 @@
+#!/bin/sh
+commit_msg=$(cat "$1")
+
+# Basic regex check
+if ! echo "$commit_msg" | grep -qE "^(feat|fix|docs|style|refactor|test|chore|revert)(\(.+\))?: .+"; then
+  echo "❌ Invalid commit message format!" >&2
+  echo "----------------------------------------" >&2
+  echo "Allowed commit message formats:" >&2
+  echo "----------------------------------------" >&2
+  echo "  <type>(<scope>): <description>" >&2
+  echo "  <type>: <description>" >&2
+  echo "" >&2
+  echo "📝 Valid types and their purposes:" >&2
+  echo "  feat     - New feature (triggers minor version)" >&2
+  echo "  fix      - Bug fix (triggers patch version)" >&2
+  echo "  docs     - Documentation changes" >&2
+  echo "  style    - Formatting, whitespace (no code change)" >&2
+  echo "  refactor - Code refactoring (no behavior change)" >&2
+  echo "  test     - Test-related changes" >&2
+  echo "  chore    - Maintenance tasks (no prod code change)" >&2
+  echo "  revert   - Revert previous commit" >&2
+  echo "" >&2
+  echo "💡 Examples of valid messages:" >&2
+  echo "  feat(auth): add OAuth2 login support" >&2
+  echo "  fix(api): resolve timeout errors" >&2
+  echo "  docs: update installation guide" >&2
+  echo "  chore(deps): update lodash to v4.17.21" >&2
+  echo "  refactor: simplify database connection" >&2
+  echo "" >&2
+  echo "🚨 Breaking changes (triggers major version):" >&2
+  echo "  feat(api)!: remove deprecated endpoints" >&2
+  echo "  or include in body:" >&2
+  echo "  BREAKING CHANGE: Old config format no longer supported" >&2
+  echo "" >&2
+  echo "🔗 For more details: https://www.conventionalcommits.org" >&2
+  echo "----------------------------------------" >&2
+  exit 1
+fi
