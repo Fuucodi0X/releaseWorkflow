@@ -6,7 +6,7 @@
     <title id="app-title">TapToSign</title>
     <script>
         // Fetch version from public URL
-        fetch('../VERSION')
+        fetch('VERSION')
         .then(response => response.text())
         .then(version => {
             document.getElementById('app-title').textContent = `TapToSign - v${version.trim()}`;
