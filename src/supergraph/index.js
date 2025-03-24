@@ -1,1 +1,1 @@
-const bye = "Good night!"
+// const bye = "Good night!"
