@@ -1,3 +1,16 @@
+# [9.3.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.2.0...v9.3.0) (2025-03-27)
+
+
+### Bug Fixes
+
+* **hasura:** update database connection ([56e27eb](https://github.com/Fuucodi0X/releaseWorkflow/commit/56e27eb1aed9c9dfe01c75d8b2cae477b7a887c4))
+
+
+### Features
+
+* **backend:** init ([8273ce4](https://github.com/Fuucodi0X/releaseWorkflow/commit/8273ce43866e855e5db4ec63fc0f7b5398440dbf))
+* **vite:** init ([39b7a06](https://github.com/Fuucodi0X/releaseWorkflow/commit/39b7a066d0112fb46ac7ec322006c790b8a771ba))
+
 # [9.2.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.1.0...v9.2.0) (2025-03-24)
 
 
