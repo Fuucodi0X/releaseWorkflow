@@ -1,3 +1,15 @@
+# [9.2.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.1.0...v9.2.0) (2025-03-24)
+
+
+### Bug Fixes
+
+* removed ([2808ea5](https://github.com/Fuucodi0X/releaseWorkflow/commit/2808ea55b1ba3a28ee08cae8dccfdd8f804db201))
+
+
+### Features
+
+* update workflow ([76baa32](https://github.com/Fuucodi0X/releaseWorkflow/commit/76baa3225037cceccdbb8c5c25a41c7ed02844f8))
+
 # [9.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.3...v9.1.0) (2025-03-24)
 
 
