@@ -1,3 +1,10 @@
+# [9.4.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.3.0...v9.4.0) (2025-03-27)
+
+
+### Features
+
+* **ai:** init ([621b54a](https://github.com/Fuucodi0X/releaseWorkflow/commit/621b54a26371bad87090bb46993dcd160e4bb6e4))
+
 # [9.3.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.2.0...v9.3.0) (2025-03-27)
 
 
