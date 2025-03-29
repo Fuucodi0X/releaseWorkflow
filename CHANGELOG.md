@@ -1,3 +1,16 @@
+# [9.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.2...v9.1.0) (2025-03-29)
+
+
+### Bug Fixes
+
+* test merge ([41bca01](https://github.com/Fuucodi0X/releaseWorkflow/commit/41bca016305c8bb3caaac44d5883721a8a009019))
+* update notes ([2a867f9](https://github.com/Fuucodi0X/releaseWorkflow/commit/2a867f9634f10907bcd0e813aebd6e1d7c7970df))
+
+
+### Features
+
+* **ai:** init ([a2194f5](https://github.com/Fuucodi0X/releaseWorkflow/commit/a2194f5d3e5e9bdb38c9b37bc97298d5e32ed18a))
+
 # [9.5.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.4.0...v9.5.0) (2025-03-28)
 
 
