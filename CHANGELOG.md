@@ -1,3 +1,57 @@
+# 1.0.0 (2025-04-02)
+
+
+* feat!: migrate frontend to react ([1c91324](https://github.com/Fuucodi0X/releaseWorkflow/commit/1c913249e83e01271f0a26b65ffc155e9046155b))
+* Merge pull request [#1](https://github.com/Fuucodi0X/releaseWorkflow/issues/1) from Fuucodi0X/dev ([d26f90f](https://github.com/Fuucodi0X/releaseWorkflow/commit/d26f90f14c3f7e343ca228de29a7290e729a8f23))
+
+
+### Bug Fixes
+
+* add conventionalcommits ([d276d20](https://github.com/Fuucodi0X/releaseWorkflow/commit/d276d204816ebd71400024c028b788c26615069c))
+* give permission access to workflow ([ea062cb](https://github.com/Fuucodi0X/releaseWorkflow/commit/ea062cb9db9a87519547917b24124f81a8f155b2))
+* **home page:** footer responsiveness ([928b363](https://github.com/Fuucodi0X/releaseWorkflow/commit/928b363a67ba1c2c0feca084b82df4c4960598a5))
+* **home page:** footer responsiveness ([712eaf8](https://github.com/Fuucodi0X/releaseWorkflow/commit/712eaf8d8d5696ecda856e373728e093d95fb83b))
+* **home page:** footer responsiveness ([246a21e](https://github.com/Fuucodi0X/releaseWorkflow/commit/246a21e2c5d06e1704d94532b8b5ba7607393ac6))
+* **home page:** footer responsiveness ([0640d02](https://github.com/Fuucodi0X/releaseWorkflow/commit/0640d023aeac67c8fb2b0c0fb7b988185df28769))
+* **release-workflow:** covercase for commit history update ([ebdc866](https://github.com/Fuucodi0X/releaseWorkflow/commit/ebdc866dad733b4148137fb9005dd779b080c308))
+* remove the extra config on commit-analyzer ([5534a6e](https://github.com/Fuucodi0X/releaseWorkflow/commit/5534a6e57615a91ad8d9ee843de9836f0b45d36c))
+* **spacing:** add a space after hello ([f3eb917](https://github.com/Fuucodi0X/releaseWorkflow/commit/f3eb917e264813d59223efbd2aa5cd57f383e74a))
+* test merge ([41bca01](https://github.com/Fuucodi0X/releaseWorkflow/commit/41bca016305c8bb3caaac44d5883721a8a009019))
+* update notes ([2a867f9](https://github.com/Fuucodi0X/releaseWorkflow/commit/2a867f9634f10907bcd0e813aebd6e1d7c7970df))
+* update release workflow ([b73d8f4](https://github.com/Fuucodi0X/releaseWorkflow/commit/b73d8f4bb1437e15f69905ee2a8179922e749965))
+* update semantic release config ([45bcb28](https://github.com/Fuucodi0X/releaseWorkflow/commit/45bcb281d47124f96f1d519b3d010cc2c85c226a))
+* update VERSION location ([5eb7cca](https://github.com/Fuucodi0X/releaseWorkflow/commit/5eb7ccaa94e4c20a750877d5ac1c499a8bd75847))
+* update workflow for commit history change ([90e9602](https://github.com/Fuucodi0X/releaseWorkflow/commit/90e96020dbc80b0d978ebf566ce98900867a1c0e))
+* workflow permission issue ([69a9847](https://github.com/Fuucodi0X/releaseWorkflow/commit/69a984720ea0ed312be7f8cd65e780798cb3551f))
+
+
+### Features
+
+* add graph ([1a1cf94](https://github.com/Fuucodi0X/releaseWorkflow/commit/1a1cf94b4abaccde6e251a86de84e0f374a519ba))
+* add semantic versioning workflow ([5262e41](https://github.com/Fuucodi0X/releaseWorkflow/commit/5262e41435d7a842bc25a969f805d8de57d1d146))
+* **ai:** init ([a2194f5](https://github.com/Fuucodi0X/releaseWorkflow/commit/a2194f5d3e5e9bdb38c9b37bc97298d5e32ed18a))
+* app dockerized ([e66e0fa](https://github.com/Fuucodi0X/releaseWorkflow/commit/e66e0faa8f6019f6e151985a29e7ed7cd1e70a56))
+* automatic service runner ([3ad9fb9](https://github.com/Fuucodi0X/releaseWorkflow/commit/3ad9fb90e222c1ec2695e83a3fe7c8e2d4ea4c4e))
+* backend init ([2f1123c](https://github.com/Fuucodi0X/releaseWorkflow/commit/2f1123c2ba66144e3e05e169dfde35f60e263e77))
+* database integration complete ([cee90e4](https://github.com/Fuucodi0X/releaseWorkflow/commit/cee90e4f892ff3b45008f0ffb52b098b71da004e))
+* frontend init ([50d9da4](https://github.com/Fuucodi0X/releaseWorkflow/commit/50d9da4f91e260d17966a51cfdef026f4516e194))
+* gitflow ([14e7aaa](https://github.com/Fuucodi0X/releaseWorkflow/commit/14e7aaae4b4fb0c69fb091117e66b9af88cf7989))
+* index.js ([8a549b6](https://github.com/Fuucodi0X/releaseWorkflow/commit/8a549b6ed551677dc8f7f06d0d3abcfe00347d58))
+* init frontend ([d1d2eef](https://github.com/Fuucodi0X/releaseWorkflow/commit/d1d2eefa854a70cb3dcf3ac9ac49ffa7243492eb))
+* jwt added ([f6b26b2](https://github.com/Fuucodi0X/releaseWorkflow/commit/f6b26b2ca44470f3fcd70e816df1aa6e0a3f6648))
+* test ([beffae5](https://github.com/Fuucodi0X/releaseWorkflow/commit/beffae5ddfe328c317db2c905e44393aecb1f684))
+* update ([3c06de6](https://github.com/Fuucodi0X/releaseWorkflow/commit/3c06de66966dc8937d658a7b4e9e12d3b4d255d5))
+* version title ([6c324ab](https://github.com/Fuucodi0X/releaseWorkflow/commit/6c324ab6352e3b7175ca9ebf2dae7021ed14f2a4))
+* version.js ([cde0ed5](https://github.com/Fuucodi0X/releaseWorkflow/commit/cde0ed5d71cc332385c70f442fd057ea3cd0f5fb))
+
+
+### BREAKING CHANGES
+
+* app must be run by the script
+* needs docker to run the app
+* old frontend maintainace stoped
+* removed vue
+
 # [9.1.0](https://github.com/Fuucodi0X/releaseWorkflow/compare/v9.0.2...v9.1.0) (2025-03-29)
 
 
