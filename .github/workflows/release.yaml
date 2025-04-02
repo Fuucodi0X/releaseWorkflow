@@ -7,31 +7,35 @@ on:
       - 'src/**'
       - 'src/VERSION'
 
-permissions: write-all
-
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      checks: write
+      
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Needed for history rewrite scenarios
+          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Setup Git
+      - name: Cleanup Orphaned Tags
+        if: github.event.forced  # Detect force pushes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch --tags --force
-          git fetch --prune --unshallow
+          # Delete local tags that no longer exist on remote
+          git fetch --prune --prune-tags origin '+refs/tags/*:refs/tags/*'
+          # Remove local conflicting tags
+          git tag -d $(git tag -l) || true
 
-      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # Install semantic-release globally
       - name: Install semantic-release
         run: |
           npm install -g \
@@ -41,16 +45,11 @@ jobs:
             @semantic-release/changelog \
             @semantic-release/exec
 
-      - name: Remove existing tag if exists (to handle history rewrites)
-        run: |
-          TAG=$(git describe --tags --abbrev=0 || echo "")
-          if [ -n "$TAG" ]; then
-            echo "Removing existing tag: $TAG"
-            git tag -d "$TAG" || true
-            git push --delete origin "$TAG" || true
-          fi
-
-      - name: Semantic Release
+      - name: Run Semantic Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          # Allow recreation of tags for history rewrites
+          npx semantic-release --debug \
+            --tag-format 'v${version}' \
+            --no-ci
