@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'src/**'       # Source code changes
-      - 'src/VERSION'      # Direct version changes
+      - 'src/**'
+      - 'src/VERSION'
 
 permissions: write-all
 
@@ -18,7 +18,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Node (needed for semantic-release)
+      - name: Setup Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch --tags --force
+          git fetch --prune --unshallow
+
+      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -27,12 +34,21 @@ jobs:
       # Install semantic-release globally
       - name: Install semantic-release
         run: |
-            npm install -g \
-              semantic-release \
-              @semantic-release/git \
-              @semantic-release/github \
-              @semantic-release/changelog \
-              @semantic-release/exec \
+          npm install -g \
+            semantic-release \
+            @semantic-release/git \
+            @semantic-release/github \
+            @semantic-release/changelog \
+            @semantic-release/exec
+
+      - name: Remove existing tag if exists (to handle history rewrites)
+        run: |
+          TAG=$(git describe --tags --abbrev=0 || echo "")
+          if [ -n "$TAG" ]; then
+            echo "Removing existing tag: $TAG"
+            git tag -d "$TAG" || true
+            git push --delete origin "$TAG" || true
+          fi
 
       - name: Semantic Release
         env:
